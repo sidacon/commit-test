@@ -1,0 +1,32 @@
+/* -----------------------------
+ * Import file to Scss or Sass.
+ * Import Reset CSS
+----------------------------- */
+@import "compass";
+@import "compass/reset";
+@import "ptp-14";
+
+
+/* -----------------------------
+ * Add style
+----------------------------- */
+#wrapper {
+	width: 1010px;
+	margin: 0 auto;
+}
+
+#header {
+
+	h1 {
+		font-size: $px24;
+	}
+
+}
+
+/* -----------------------------
+ * Group (clearfix)
+----------------------------- */
+@import "compass/utilities/general/clearfix";
+.group {
+    @include clearfix;
+}
